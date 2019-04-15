@@ -1,0 +1,19 @@
+td{
+  background:white;
+  min-width:100px;
+  height:100px;
+  border:1px solid gray;
+}
+.vivo{
+  background: black;
+}
+.muerto{
+  background: white;
+}
+
+.show{
+  display: block;
+}
+.noshow{
+  display: none;
+}

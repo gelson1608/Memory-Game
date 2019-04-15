@@ -1,0 +1,94 @@
+<html>
+  <head>
+    <title>Juego de memoria</title>
+    <link rel="stylesheet" href="memoria.css" type="text/css">
+  </head>
+  <body>
+    <div id="primeraPantalla" class="show">
+      <input text="text" placeholder="Ingrese usuario" class="user"></input>
+      <button type="button" class="start" onclick="iniciarJuego()">Comenzar</button>
+      <button type="button" class="highscore" onclick="mostrarPuntuacion()">Highscores</button>
+    </div>
+
+    <div id="segundaPantalla" class="noshow">
+      <h1><p><b><i>Memoria Ulima</i></b></p></h1>
+      <table>
+        <tr>
+          <td id='1' onclick="cambioEstado(this)" class="muerto">
+          </td>
+          <td id='2' onclick="cambioEstado(this)" class="muerto">
+          </td>
+          <td id='3' onclick="cambioEstado(this)" class="muerto">
+          </td>
+        </tr>
+        <tr>
+          <td id='4' onclick="cambioEstado(this)" class="muerto">
+          </td>
+          <td id='5' onclick="cambioEstado(this)" class="muerto">
+          </td>
+          <td id='6' onclick="cambioEstado(this)" class="muerto">
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div id="terceraPantalla" class="noshow">
+      <table>
+      <tr>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+      </tr>
+    </table>
+    </div>
+    <script src="memoria.js"></script>
+  </body>
+</html>
